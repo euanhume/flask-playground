@@ -1,7 +1,4 @@
-from __future__ import annotations
-
 from flask import Flask, jsonify
-
 
 def create_app() -> Flask:
     app = Flask(__name__)
@@ -16,9 +13,7 @@ def create_app() -> Flask:
 
     return app
 
-
 app = create_app()
-
 
 if __name__ == "__main__":
 
